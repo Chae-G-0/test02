@@ -81,7 +81,7 @@
 }
 
 #main .mainCookit .content a {
-    margin-top: 15px;
+    margin-top: 10px;
     border: 1px solid #333;
     display: block;
     text-align: center;
@@ -98,7 +98,7 @@
 }
 
 #main .mainCookit .content .box {
-    margin: 0 0 10px 0;
+    margin: 0 0 20px 0;
 }
 
 #main .mainCookit .content h3 {
@@ -108,7 +108,7 @@
 }
 
 #main .mainCookit .content p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     line-height: 1.4;
     color: #333;
