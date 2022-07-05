@@ -74,6 +74,25 @@
     gap: 30px;
 }
 
+
+#main .mainCookit .content .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main .mainCookit .content a {
+    margin-top: 15px;
+    border: 1px solid #333;
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
 #main .mainCookit .content figure {
     margin: 0 auto;
 }
@@ -92,7 +111,9 @@
     font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
+    color: #333;
 }
+
 
 #main .mainRnd {
     position: relative;
