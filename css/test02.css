@@ -1,0 +1,118 @@
+.container {
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header nav>ul {
+    display: flex;
+    gap: 30px;
+    line-height: 100px;
+}
+
+#header nav>ul.service {
+    justify-content: flex-end;
+}
+
+#main .mainVisual {
+    position: relative;
+}
+
+#main .mainVisual figure {
+    height: 635px;
+}
+
+#main .mainVisual .slogan {
+    position: absolute;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    color: #fff;
+}
+
+#main .mainVisual .mainSlide .item01 {
+    background: url(../img/mainslide01.jpg) no-repeat
+}
+
+#main .mainVisual .mainSlide .item02 {
+    background: url(../img/mainslide03.jpg) no-repeat
+}   
+
+#main .mainVisual .mainSlide .item03 {
+    background: url(../img/mainslide05.jpg) no-repeat
+}
+
+#main .mainCookit {
+    padding: 100px 0;
+}
+
+
+#main .mainCookit .container h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+#main .mainCookit .container>p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+}
+
+#main .mainCookit .content {
+    display: flex;
+    gap: 30px;
+}
+
+#main .mainCookit .content figure {
+    margin: 0 auto;
+}
+
+#main .mainCookit .content .box {
+    margin: 0 0 10px 0;
+}
+
+#main .mainCookit .content h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+#main .mainCookit .content p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+#main .mainRnd {
+    position: relative;
+    background: url(../img/back.jpg);
+    height: 635px;
+}
+
+#main .mainRnd .inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#main .mainRnd .inner h2 {
+    position: absolute;
+    inset: 50%  auto auto 70%;
+    text-align: right;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.25;
+}
+
