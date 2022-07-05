@@ -137,3 +137,18 @@
     line-height: 1.25;
 }
 
+#main .mainRecommend {
+    padding: 100px 0;
+}
+
+#main .mainRecommend h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 50px 0;
+}
+
+#main .mainRecommend .reSlide figure {
+    padding: 0 30px;
+}
