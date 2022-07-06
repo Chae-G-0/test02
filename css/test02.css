@@ -1,12 +1,24 @@
+::selection {
+    background: #2C5F2D;
+    color: #FFE77A;
+}
+
 .container {
-    justify-content: space-between;
     width: 1200px;
     margin: 0 auto;
+}
+
+#header .container a {
+    line-height: 100px;
 }
 
 #header nav {
     display: flex;
     justify-content: space-between;
+}
+
+#header nav h1 {
+    text-align: center;
 }
 
 #header nav>ul {
@@ -15,7 +27,17 @@
     line-height: 100px;
 }
 
-#header nav>ul.service {
+#header nav>ul>li {
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+}
+
+#header nav>ul {
+    flex: 1;
+}
+
+#header nav .service {
     justify-content: flex-end;
 }
 
@@ -34,6 +56,7 @@
     width: 1200px;
     font-size: 35px;
     font-weight: 500;
+    line-height: 1.25;
     letter-spacing: 0.025em;
     color: #fff;
 }
@@ -74,7 +97,6 @@
     gap: 30px;
 }
 
-
 #main .mainCookit .content .bottom {
     display: flex;
     justify-content: space-between;
@@ -102,14 +124,14 @@
 }
 
 #main .mainCookit .content h3 {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 21px;
+    font-weight: 700;
     margin: 0 0 10px 0;
 }
 
 #main .mainCookit .content p {
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.4;
     color: #333;
 }
@@ -117,8 +139,8 @@
 
 #main .mainRnd {
     position: relative;
-    background: url(../img/back.jpg);
-    height: 635px;
+    background: url(../img/back.jpg) no-repeat fixed center/cover;
+    height: 500px;
 }
 
 #main .mainRnd .inner {
@@ -139,6 +161,7 @@
 
 #main .mainRecommend {
     padding: 100px 0;
+    border-bottom: 1px solid #ddd;
 }
 
 #main .mainRecommend h2 {
@@ -146,9 +169,99 @@
     font-size: 30px;
     font-weight: 700;
     color: #333;
-    margin: 0 0 50px 0;
+    margin: 0 0 20px 0;
 }
 
 #main .mainRecommend .reSlide figure {
     padding: 0 30px;
 }
+
+#main .mainRecommend .reSlide figure.slick-center h3 {
+    transform: translateY(0);
+    opacity: 1;
+    transition: 0.5s;
+}
+#main .mainRecommend .reSlide figure.slick-center p {
+    transform: translateY(0);
+    opacity: 1;
+    transition: 0.5s 0.5s;
+}
+
+#main .mainRecommend .reSlide div h3 {
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0 10px 0;
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+#main .mainRecommend .reSlide div p {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+#main .review {
+    padding: 100px 0;
+}
+
+#main .review .content {
+    display: flex;
+    gap: 30px;
+}
+
+#main .review h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 50px 0;
+    color: #333;
+}
+
+#main .review h3 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+#footer {
+    background: #333;
+}
+
+#footer .top {
+    border-bottom: 1px solid #444;
+}
+
+#footer .top .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .top .container h2 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 100px;
+    color: #fff;
+}
+
+#footer .top .container .icon {
+    font-size: 16px;
+    line-height: 100px;
+    color: #fff;
+}
+
+#footer .top .container .icon i {
+    padding: 0 5px;
+}
+
+#footer .container ul {
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 100px;
+}
+

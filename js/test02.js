@@ -6,6 +6,7 @@ $(function () {
     });
 
     $('.reSlide').slick({
+        arrows: false,
         centerMode: true,
         slidesToShow: 5,
         autoplay: true,
