@@ -242,16 +242,30 @@
     color: #333;
 }
 
-#main .review h3 {
+#main .review .content h3 {
     font-size: 21px;
     font-weight: 500;
     margin: 0 0 10px 0;
 }
 
-#main .review p {
+#main .review .content p {
     font-size: 16px;
     font-weight: 300;
+    margin: 0 0 30px 0;
     line-height: 1.4;
+}
+
+#main .review .content a {
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #333;
+    color: #333;
+    margin: 0 0 0 auto;
 }
 
 #footer {
