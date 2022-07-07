@@ -83,13 +83,15 @@
     font-size: 30px;
     font-weight: 700;
     margin: 0 0 10px 0;
+    color: #333;
 }
 
 #main .mainCookit .container>p {
     text-align: center;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     margin: 0 0 30px 0;
+    color: #333;
 }
 
 #main .mainCookit .content {
@@ -127,6 +129,7 @@
     font-size: 21px;
     font-weight: 700;
     margin: 0 0 10px 0;
+    color: #333;
 }
 
 #main .mainCookit .content p {
@@ -138,21 +141,21 @@
 
 
 #main .mainRnd {
+    display: flex;
+    align-items: center;
     position: relative;
     background: url(../img/back.jpg) no-repeat fixed center/cover;
     height: 500px;
 }
 
 #main .mainRnd .inner {
+    justify-content: flex-end;
     width: 1200px;
     margin: 0 auto;
 }
 
 #main .mainRnd .inner h2 {
-    position: absolute;
-    inset: 50%  auto auto 70%;
     text-align: right;
-    transform: translate(-50%, -50%);
     font-size: 30px;
     font-weight: 700;
     color: #fff;
@@ -161,7 +164,6 @@
 
 #main .mainRecommend {
     padding: 100px 0;
-    border-bottom: 1px solid #ddd;
 }
 
 #main .mainRecommend h2 {
@@ -205,29 +207,55 @@
 }
 
 #main .review {
+    background: #f7f7f7;
     padding: 100px 0;
 }
 
 #main .review .content {
+    position: relative;
     display: flex;
-    gap: 30px;
+    background: #fff;
+    border-radius: 35px;
+    width: 1000px;
+    height: 400px;
+    padding: 50px 50px 50px 250px;
+    margin: 0 0 0 auto;
+}
+
+#main .review .content:hover {
+    box-shadow: 0 0 3px #999;
+}
+
+#main .review .content figure img {
+    position: absolute;
+    top: 0;
+    left: -25%;
+    border-radius: 35px;
+    transform: scale(0.8);
 }
 
 #main .review h2 {
     text-align: center;
     font-size: 30px;
     font-weight: 700;
-    margin: 0 0 50px 0;
+    margin: 0 0 30px 0;
     color: #333;
 }
 
 #main .review h3 {
     font-size: 21px;
     font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+#main .review p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
 }
 
 #footer {
-    background: #333;
+    background: #222;
 }
 
 #footer .top {
@@ -256,12 +284,20 @@
     padding: 0 5px;
 }
 
-#footer .container ul {
+#footer .top .container ul {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     color: #fff;
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 500;
     line-height: 100px;
 }
 
+#footer .down .container ul {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 100px;
+}
